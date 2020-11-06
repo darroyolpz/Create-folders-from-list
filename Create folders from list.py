@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Open file with the orders to be created
-excel_file = 'Orders.xlsx'
+excel_file = 'AHU Orders.xlsx'
 df = pd.read_excel(excel_file)
 df['Orders'] = df['Orders'].astype(str)
 
